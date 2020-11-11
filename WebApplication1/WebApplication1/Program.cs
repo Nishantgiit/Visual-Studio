@@ -15,7 +15,7 @@ namespace WebApplication1
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+        // Change has been made
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
